@@ -17,9 +17,10 @@ yarn create react-app my-app --template cra-template-pdf-vite-react
 Nginx 代理
 
 ```sh
+# suffix 代理标识
+
 # 静态 index.html 代理
 # root 目录
-# suffix 代理标识
 location ^~/root_suffix {
   alias /path;
 }

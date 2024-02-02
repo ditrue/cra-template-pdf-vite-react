@@ -1,13 +1,4 @@
-# cra-template-qjp-typescript
-
-The qjp-typescript template for [Create React App](https://github.com/facebook/create-react-app)
-
-[![NPM](https://img.shields.io/npm/l/cra-template-qjp-typescript)](https://opensource.org/licenses/MIT)
-[![OSCS Status](https://www.oscs1024.com/platform/badge/qjp88995/cra-template-qjp-typescript.svg?size=small)](https://www.oscs1024.com/project/qjp88995/cra-template-qjp-typescript?ref=badge_small)
-[![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/qjp88995/cra-template-qjp-typescript)](https://github.com/ditrue/cra-template-pdf-vite-react)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/qjp88995/cra-template-qjp-typescript)](https://github.com/ditrue/cra-template-pdf-vite-react)
-[![GitHub Repo stars](https://img.shields.io/github/stars/qjp88995/cra-template-qjp-typescript?style=social)](https://github.com/ditrue/cra-template-pdf-vite-react)
-[![npm](https://img.shields.io/npm/dm/cra-template-qjp-typescript)](https://www.npmjs.com/package/cra-template-pdf-vite-react)
+# cra-template-pdf-vite-react
 
 ## Usage
 

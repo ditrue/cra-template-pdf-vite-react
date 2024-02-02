@@ -26,11 +26,17 @@ yarn create react-app my-app --template cra-template-pdf-vite-react
 Nginx 代理
 
 ```sh
+# 静态 index.html 代理
 # root 目录
 # suffix 代理标识
-  location ^~/root_suffix {
-    alias /path;
-  }
+location ^~/root_suffix {
+  alias /path;
+}
+
+# api 接口代理
+location ^~/suffix/ {
+
+}
 ```
 
 Cloning this repo pulls down the Redux template only; not a bundled and configured Create React App.

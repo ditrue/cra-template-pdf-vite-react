@@ -1,13 +1,11 @@
 {
   "name": "cra-template-pdf-vite-react",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "keywords": [
     "vite",
     "react",
-    "create-react-app",
     "template",
     "typescript",
-    "craco",
     "ahooks",
     "less",
     "antd",

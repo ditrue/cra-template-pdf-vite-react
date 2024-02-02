@@ -23,6 +23,16 @@ npx create-react-app my-app --template cra-template-pdf-vite-react
 yarn create react-app my-app --template cra-template-pdf-vite-react
 ```
 
+Nginx 代理
+
+```sh
+# root 目录
+# suffix 代理标识
+  location ^~/root_suffix {
+    alias /path;
+  }
+```
+
 Cloning this repo pulls down the Redux template only; not a bundled and configured Create React App.
 
 For more information, please refer to:

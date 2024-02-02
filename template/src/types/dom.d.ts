@@ -3,8 +3,13 @@ declare interface CustomEventMap {
 }
 
 declare interface Window {
-  addEventListener<K extends keyof CustomEventMap>(type: K, listener: (this: Window, ev: CustomEventMap[K]) => void): void;
-  removeEventListener<K extends keyof CustomEventMap>(type: K, listener: (this: Window, ev: CustomEventMap[K]) => void): void;
-  CefSharp: any;
-  JsObj: any;
+  addEventListener<K extends keyof CustomEventMap>(
+    type: K,
+    listener: (this: Window, ev: CustomEventMap[K]) => void
+  ): void;
+
+  removeEventListener<K extends keyof CustomEventMap>(
+    type: K,
+    listener: (this: Window, ev: CustomEventMap[K]) => void
+  ): void;
 }

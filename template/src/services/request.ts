@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from "axios"
 
-const request = axios.create();
+const request = axios.create()
 
-request.defaults.responseType = 'json';
+request.defaults.responseType = "json"
 
-export default request;
+export default request

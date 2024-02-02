@@ -1,35 +1,23 @@
-import { createBrowserRouter } from 'react-router-dom';
-import Root from './Root';
-import NotFound from './NotFound';
-import { BasicLayout } from './layouts';
-import homeRoute from './home';
-import projectsRoute from './projects';
-import authsRoute from './auths';
-import ppmRoute from './ppm';
-import schedulesRoute from './schedules';
+import { createBrowserRouter } from "react-router-dom"
+import Root from "./Root"
+import Home from "./Home"
+import NotFound from "./NotFound"
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: (<Root />),
+    path: "/",
+    element: <Root />,
     children: [
-      authsRoute,
       {
-        path: '/',
-        element: (<BasicLayout />),
-        children: [
-          homeRoute,
-          projectsRoute,
-          schedulesRoute,
-        ],
+        path: "home",
+        element: <Home />,
       },
-      ppmRoute,
       {
-        path: '*',
-        element: (<NotFound />),
+        path: "*",
+        element: <NotFound />,
       },
     ],
-  }
-]);
+  },
+])
 
-export default router;
+export default router

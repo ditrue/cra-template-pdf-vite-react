@@ -1,11 +1,15 @@
-export * from './auth';
-export * from './schedule';
-export * from './scheduleFile';
-export * from './wxwork';
-export * from './file';
-export * from './document';
-export * from './project';
-export * from './notification';
-export * from './projectStage';
-export * from './projectTimeline';
-export * from './calendar';
+import request from "../request"
+
+type News = {
+  id: number
+  title: string
+  subtitle: string
+  author: string
+  published_at: string
+  abstract: string
+  content?: string
+}
+
+export const getAuthorities = async (): Promise<News[]> => {
+  return await request.get("/api/apps/authorities")
+}

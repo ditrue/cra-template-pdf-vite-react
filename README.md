@@ -14,7 +14,7 @@ npx create-react-app my-app --template cra-template-pdf-vite-react
 yarn create react-app my-app --template cra-template-pdf-vite-react
 ```
 
-Nginx 代理
+Nginx 代理 && base path
 
 ```sh
 # suffix 代理标识

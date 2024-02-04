@@ -1,6 +1,6 @@
 {
   "name": "cra-template-pdf-vite-react",
-  "version": "1.5.6",
+  "version": "1.5.8",
   "keywords": [
     "vite",
     "react",
@@ -11,7 +11,7 @@
     "antd",
     "router"
   ],
-  "description": "The base TypeScript template for Create React App.",
+  "description": "The base TypeScript template for Create Vite React App.",
   "repository": {
     "type": "git",
     "url": "https://github.com/ditrue/cra-template-pdf-vite-react.git",

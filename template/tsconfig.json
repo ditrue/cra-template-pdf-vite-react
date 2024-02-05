@@ -16,8 +16,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": ["./src/*"] // 将 '@' 映射到 'src' 目录
+      "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*", "types/**/*"]
+  "include": ["src"]
 }

@@ -30,17 +30,9 @@ location ^~/suffix/ {
 
 }
 
-# vite.config.ts
-export default defineConfig({
-- base: "/api/micro-app/portal/",
-+ base: "/micro-web/suffix/",
-  plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-})
+# .env.production
+VITE_BASENAME=/api/micro-app/${suffix}/
+VITE_API_BASE_URL=https://admin.thape.com.cn
 ```
 
 Cloning this repo pulls down the Redux template only; not a bundled and configured Create React App.
